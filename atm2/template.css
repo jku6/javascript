@@ -43,3 +43,31 @@ body {
 	width: 960px;
 	margin: auto;
 }
+
+
+
+#checking {
+     width: 450px;
+     text-align: center;
+     border: 1px dashed gray;
+     float: left;
+     display: block;
+     padding: 10px;
+     margin-top: 200px;
+     border-radius: 15px;
+}
+
+#savings {
+     width: 450px;
+     text-align: center;
+     border: 1px dashed gray;
+     float: left;
+     display: block;
+     padding: 10px;
+     margin-top: 200px;
+     border-radius: 15px;
+}
+
+.clear {
+     clear: both;
+}
