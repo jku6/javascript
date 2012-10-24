@@ -64,15 +64,13 @@ function withdrawal2()
 {
 	var t = $('#st1').val();
 	var n = parseInt(t);
-	balance2 = balance2 - n;
 	
+	if(n <= balance2){
+	balance2 = balance2 - n;
+	}
+
 	console.log('you just withdrew ' + n + ' and now have a balance of ' + (balance2));
 	$('#balance2').text('$' + balance2);
-
-	if(balance2 < 0){
-		$('#balance2').css('background-color', 'red');
-		$('#balance2').text('$' + balance2);
-	}	
 }
 
 
