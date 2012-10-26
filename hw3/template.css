@@ -1,0 +1,44 @@
+.box {
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+	border: 1px solid black;
+	float: left;
+	background-color: gray;
+
+
+}
+
+.select {
+	background: blue;
+	
+}
+
+.match {
+	background: green;
+}
+
+.orange {
+	background: orange;
+}
+
+#container {
+	width: 960px;
+	margin: auto;
+	border: 1px, solid, black;
+}
+
+header {
+	text-align: center;
+}
+
+#inputs {
+	text-align: center;
+
+
+}
+
+#board {
+	padding-left: 150px;
+
+}

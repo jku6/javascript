@@ -1,6 +1,6 @@
 $(function(){
 	$('#b3').hover(large_green);
-  $("#b4").hover(small_red);
+  	$("#b4").hover(small_red);
 	$("#b5").hover(rev1, nor1);
 	$('#b1').click(clear);
 	$('#b2').dblclick(normal);
