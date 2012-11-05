@@ -1,0 +1,35 @@
+#balance {
+	background-color: gray;
+	height: 400px;
+	width: 400px;
+	padding: 5px;
+	float: left;
+	display: block;
+}
+
+#add {
+	width: 960px;
+	margin: auto;
+
+}
+
+#food {
+	float: left;
+	height: 400px;
+	width: 400px;
+	padding: 5px;
+	float: left;
+	background-color: red;	
+	display: block;
+}
+
+#totel {
+	background-color: blue;
+	height: 200px;
+	width: 960px;
+}
+
+.clear {
+	clear: both;
+}
+

@@ -3,7 +3,7 @@ var number_of_cards = 0;
 var final_array = [];
 var selected1 = null;
 var selected2 = null;
-var selected3 = null;
+//var selected3 = null;
 var counter = 0;
 var active;
 
@@ -110,11 +110,7 @@ function select_box1()
 		selected1.text(final_array[selected1.attr('id')]);
 
 	}
-		// else
-		// {
-		// 	$(this).addClass('select');
-		// 	selected1.removeClass('select');
-		// }
+		
 
 	if (!$(".box").not(".match").length) 
 	{
