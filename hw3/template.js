@@ -3,7 +3,7 @@ var number_of_cards = 0;
 var final_array = [];
 var selected1 = null;
 var selected2 = null;
-//var selected3 = null;
+
 var counter = 0;
 var active;
 
@@ -12,10 +12,6 @@ $(function(){
 
 	$('input').click(create_board);
 	$('#board').on('click', '.box', select_box1);
-	
-	// $('#board').on('click', '.box', select_box2);
-	// $('#board').on('click', '.select', unselect);
-
 
 });
 
@@ -134,60 +130,7 @@ function stopIt() {
    clearInterval(active); 
 } 
 
-// 	if (selected2 != null)
-// 	{
 
-
-// 		else
-// 		{
-// 			$(this).addClass('select');
-// 			a = selected1.attr('id');
-// 		}
-// 	}
-// }
-
-	// selected1 = $(this);
-	// var a = selected1.attr('id');
-	// // var b = selected2.attr('id');
-
-	// if(selected2 != null)
-	// {
-
-	// 	else
-	// 	(select1 != null)
-	// 	{
-	// 	selected2 = $(this);
-	// 	$(this)var b = selected2.attr('id');
-
-	// 	}
-	// }
-// if nothing is selected then you add a class if something is selected
-// you have compare their id's, if its a match then add .match to both
-// if it doesn;t match remove the first class and add class to second one selected
-
-	// selected1 = $(this).addClass('select');
-
-	// else 
-	// selected1 = $(this).addClass('select');
-
-
-
-
-
-	// if(select1 != null)
-	// {
-	// selected2 = $(this);
-	// $(this)var b = selected2.attr('id');
-
-	// }
-
-
-
-// function unselect()
-// {
-// 	selected.removeClass('select');
-// 	selected = null;	
-// }
 
 //Randomize the Cards
 function randomizeArray(array){
